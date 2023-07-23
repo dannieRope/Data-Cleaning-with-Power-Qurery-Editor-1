@@ -1,11 +1,11 @@
 # DATA CLEANING WITH POWER QUERY EDITOR 
-This project is to keep my hands busy and to solidify my skill in data cleaning using power query editor in Microsoft Excel.The dataset was downloaded from forsightbi.com.ng via this [link](https://t.co/LEmsmrGL7b).
+The purpose of this project is to keep my hands busy and to consolidate my skill in data cleaning using power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link](https://t.co/LEmsmrGL7b).
 
 ## PREVIEW OF THE DATASET
 
-Looking at the dataset, it is supposed to contain four columns.Order IdShip modeSegmentValue/sales
-But these columns are badly structured. The first two rows of the dataset contain the segment and ship mode attributes, with the Order ID attributes placed directly under the first two rows of column A.
-The main objective of this exercise is to prepare and restructure the data for analytical purposes.The transpose and unpivot features in PowerQuery are the main tools used in the transformation process.
+According to the dataset, it should have four columns: OrderId, Ship mode, Segment and Value/sales
+However, these columns are poorly structured. Segment and ship mode attributes are found in the first two rows of the dataset, followed by Order ID attributes directly placed under them in column A.
+The main objective of this exercise is to prepare and restructure the data for analytical purposes. Transpose and unpivot features in PowerQuery are the main tools used during the transformation.
 
 ## LOADING THE DATASET
 
