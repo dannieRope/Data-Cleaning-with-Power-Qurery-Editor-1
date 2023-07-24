@@ -1,11 +1,14 @@
 # DATA CLEANING WITH POWER QUERY EDITOR 
-The purpose of this project is to keep my hands busy and to consolidate my skill in data cleaning using power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link](https://t.co/LEmsmrGL7b).
+The purpose of this project is to keep my hands busy and to consolidate my skill in data cleaning using power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link]([https://t.co/LEmsmrGL7b](https://t.co/73HKlw0xuI)).
 
 ## PREVIEW OF THE DATASET
 
 According to the dataset, it should have four columns: OrderId, Ship mode, Segment and Value/sales.
 
 However, these columns are poorly structured. Segment and ship mode attributes are found in the first two rows of the dataset, followed by Order ID attributes directly placed under them in column A.
+
+![DATA PREVIEW](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/f4ac042a-50af-4ecd-8835-8d741a5a575a)
+
 
 The main objective of this exercise is to prepare and restructure the data for analytical purposes. Transpose and unpivot features in PowerQuery are the main tools used during the transformation.
 
@@ -21,7 +24,10 @@ To load the dirty data into power query editor, create a new Excel workbook (Cle
 
 *Click on From Excel Workbook and then choose the file.*
 
-*Click on Transform and Load to load the data into the power query editor.*
+
+*Click on the excel sheet containing the dirty data*
+
+*Click on Transform to load the data into the power query editor.*
 
 ## DATA CLEANING PROCESS
 After loading the data into the power query editor, the first row gets promoted automatically as a header, and the data type changes as well. To undo this, delete those steps in Applied steps’ in the power query editor.
