@@ -82,7 +82,7 @@ In the Home tab, click on close and load.
 
 Save the excel sheet. 
 
-The clean data will look like this. 
+The clean data looks like this. 
 
 ![final](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/0e013fb2-0b4c-4f5c-8713-42eb7a42af4e)
 
