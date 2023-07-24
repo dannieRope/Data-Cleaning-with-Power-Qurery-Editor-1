@@ -40,13 +40,23 @@ After loading the data into the power query editor, the first row gets promoted 
 ![undo](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/1f9d97b5-af0b-47d3-a39a-74c93c5f220f)
 
 
-Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two columns are repositioned into two separate columns. To transpose the dataset,
+Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two rows are repositioned into two separate columns. To transpose the dataset,
 in the transform tab in the power query editor,
 click on transpose
 
+![transpose](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/40bde25e-ee52-4ad9-843b-89562a8d2fd6)
 
-However, the OrderID gets pivoted and therefore needs to be unpivoted.
-Delete the OrderID column since it contains null values; use the fill-down feature to fill down the segment column; and remove null values in the ship mode column.
-Now use the first row at the header and select the segment and ship mode columns, and then unpivote the other columns.
+
+However, the OrderID column becomes a row.
+Delete the OrderID column since it contains null values; to do this, right click on the column and click on remove.
+
+
+use the fill feature to fill down the segment; to do this, In the transform tab, click on fill, choose down from the drop down. 
+
+Remove null values in the ship mode column. To do this, click on the drop down button on the right conner of the ship mode column and then click on remove empty rows.
+
+Now use the first row at the header and select the segment and ship mode columns
+
+unpivote the other columns.
  
  
