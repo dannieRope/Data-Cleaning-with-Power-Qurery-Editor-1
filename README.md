@@ -50,6 +50,8 @@ click on transpose
 However, the OrderID column becomes a row.
 Delete the OrderID column since it contains null values; to do this, right click on the column and click on remove.
 
+![remove](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/f3e028bf-9e99-4aac-9d77-8e77f9747bb2)
+
 
 use the fill feature to fill down the segment; to do this, In the transform tab, click on fill, choose down from the drop down. 
 
