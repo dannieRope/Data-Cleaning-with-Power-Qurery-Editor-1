@@ -1,16 +1,16 @@
 # DATA CLEANING WITH POWER QUERY EDITOR 
 The purpose of this project is to keep my hands busy and to consolidate my skills in data cleaning using the power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link](https://t.co/73HKlw0xuI) 
 
-## PREVIEW OF THE DATASEhttps://t.co/73HKlw0xuIT
+## PREVIEW OF THE DATASET
 
-According to the dataset, it should have four columns: OrderId, Ship mode, Segment and Value/sales.
+According to the dataset, it should have four columns: OrderId, Ship mode, segment, and Value/sales.
 
 However, these columns are poorly structured. Segment and ship mode attributes are found in the first two rows of the dataset, followed by Order ID attributes directly placed under them in column A.
 
 ![DATA PREVIEW](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/f4ac042a-50af-4ecd-8835-8d741a5a575a)
 
 
-The main objective of this exercise is to prepare and restructure the data for analytical purposes. Transpose and unpivot features in PowerQuery are the main tools used during the transformation.
+The main objective of this exercise is to prepare and restructure the data for analytical purposes. The transpose and unpivot features in PowerQuery are the main tools used during the transformation.
 
 ## LOADING THE DATASET
 
@@ -28,7 +28,7 @@ To load the dirty data into power query editor, create a new Excel workbook (Cle
 
 *Click on the excel sheet containing the dirty data*
 
-*Click on Transform data to load the data into the power query editor.+
+*Click on Transform data to load the data into the power query editor.*
 
 ![Transform data](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/4884ad53-db60-4060-928b-865f6a068bdd)
 
@@ -82,7 +82,7 @@ In the Home tab, click on close and load.
 
 Save the excel sheet. 
 
-The clean data looks like this. 
+Take a look at the clean dataset [here](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/blob/main/1.Badly_structured_sales_Data_Cleaned.xlsx)
 
 ![final](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/0e013fb2-0b4c-4f5c-8713-42eb7a42af4e)
 
