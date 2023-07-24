@@ -23,7 +23,7 @@ To load the dirty data into power query editor, create a new Excel workbook (Cle
 *Click on From File.*
 
 *Click on From Excel Workbook and then choose the file.*
-
+![from excel workbook](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/cb7e499e-18b3-453a-83e5-3a12ca366f7e)
 
 *Click on the excel sheet containing the dirty data*
 
