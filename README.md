@@ -37,8 +37,15 @@ To load the dirty data into power query editor, create a new Excel workbook (Cle
 
 After loading the data into the power query editor, the first row gets promoted automatically as the headers, and the data type changes as well. To undo this, delete those steps in Applied steps in the power query editor.
 
+![undo](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/1f9d97b5-af0b-47d3-a39a-74c93c5f220f)
 
-Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two columns are repositioned into two separate columns; however, the OrderID gets pivoted and therefore needs to be unpivoted.
+
+Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two columns are repositioned into two separate columns. To transpose the dataset,
+in the transform tab in the power query editor,
+click on transpose
+
+
+However, the OrderID gets pivoted and therefore needs to be unpivoted.
 Delete the OrderID column since it contains null values; use the fill-down feature to fill down the segment column; and remove null values in the ship mode column.
 Now use the first row at the header and select the segment and ship mode columns, and then unpivote the other columns.
  
