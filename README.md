@@ -23,14 +23,21 @@ To load the dirty data into power query editor, create a new Excel workbook (Cle
 *Click on From File.*
 
 *Click on From Excel Workbook and then choose the file.*
+
 ![from excel workbook](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/cb7e499e-18b3-453a-83e5-3a12ca366f7e)
 
 *Click on the excel sheet containing the dirty data*
 
-*Click on Transform to load the data into the power query editor.*
+*Click on Transform data to load the data into the power query editor.*
+
+![Transform data](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/4884ad53-db60-4060-928b-865f6a068bdd)
+
 
 ## DATA CLEANING PROCESS
-After loading the data into the power query editor, the first row gets promoted automatically as a header, and the data type changes as well. To undo this, delete those steps in Applied steps’ in the power query editor.
+
+After loading the data into the power query editor, the first row gets promoted automatically as the headers, and the data type changes as well. To undo this, delete those steps in Applied steps in the power query editor.
+
+
 Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two columns are repositioned into two separate columns; however, the OrderID gets pivoted and therefore needs to be unpivoted.
 Delete the OrderID column since it contains null values; use the fill-down feature to fill down the segment column; and remove null values in the ship mode column.
 Now use the first row at the header and select the segment and ship mode columns, and then unpivote the other columns.
