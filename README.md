@@ -1,7 +1,7 @@
 # DATA CLEANING WITH POWER QUERY EDITOR 
-The purpose of this project is to keep my hands busy and to consolidate my skill in data cleaning using power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link]([https://t.co/LEmsmrGL7b](https://t.co/73HKlw0xuI)).
+The purpose of this project is to keep my hands busy and to consolidate my skills in data cleaning using the power query editor in Microsoft Excel. The dataset was downloaded from forsightbi.com.ng via this [link](https://t.co/73HKlw0xuI) 
 
-## PREVIEW OF THE DATASET
+## PREVIEW OF THE DATASEhttps://t.co/73HKlw0xuIT
 
 According to the dataset, it should have four columns: OrderId, Ship mode, Segment and Value/sales.
 
