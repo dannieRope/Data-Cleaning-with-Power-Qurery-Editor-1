@@ -5,7 +5,7 @@ The purpose of this project is to keep my hands busy and to consolidate my skill
 
 According to the dataset, it should have four columns: OrderId, Ship mode, segment, and Value/sales.
 
-However, these columns are poorly structured. Segment and ship mode attributes are found in the first two rows of the dataset, followed by Order ID attributes directly placed under them in column A.
+However, these columns are poorly structured. Segment and ship mode values are found in the first two rows of the dataset, followed by Order ID values, which are directly placed under them in column A.
 
 ![DATA PREVIEW](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/f4ac042a-50af-4ecd-8835-8d741a5a575a)
 
@@ -40,7 +40,7 @@ After loading the data into the power query editor, the first row gets promoted 
 ![undo](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/1f9d97b5-af0b-47d3-a39a-74c93c5f220f)
 
 
-Since we have the first two rows containing the segment and ship mode attributes, transpose the entire dataset. By transposing the dataset, the two rows are repositioned into two separate columns. To transpose the dataset,
+Since we have the first two rows containing the segment and ship mode values, transpose the entire dataset. By transposing the dataset, the two rows are repositioned into two separate columns. To transpose the dataset,
 in the transform tab in the power query editor,
 click on transpose
 
