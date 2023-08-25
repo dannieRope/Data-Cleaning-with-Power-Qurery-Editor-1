@@ -75,12 +75,12 @@ Now change the attribute column name to OrderID by double-clicking the column he
 ![u have it](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/f7ea541c-8da7-487f-b43e-bc9d35ef2100)
 
 
-In the Home tab, click on close and load.
+In the Home tab, click on Close and Load.
 
 ![close and load and save the excel sheet](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/assets/132214828/39353717-d30c-488e-919d-9aa17ae7734c)
 
 
-Save the excel sheet. 
+Save the Excel sheet.
 
 Take a look at the clean dataset [here](https://github.com/dannieRope/Data-Cleaning-with-Power-Qurery-Editor-1/blob/main/1.Badly_structured_sales_Data_Cleaned.xlsx)
 
